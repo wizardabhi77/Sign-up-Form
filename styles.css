@@ -1,0 +1,36 @@
+:root {
+    margin:0;
+}
+
+body {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+    margin:0;
+}
+
+.logo {
+    width: 30%;
+    flex: 1;
+    background-image: url("./Assets/the-walters-art-museum-9FXGfvtc2Lk-unsplash.jpg");
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    flex : 1;
+}
+
+img {
+    width: 700px;
+}
+
+#logo {
+    position: relative;
+    opacity: 0.5;
+    left: 200px;
+    top: 200px;
+    height: 500px;
+    width: 500px;
+}
